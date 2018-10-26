@@ -1,0 +1,264 @@
+body {
+    font-family: sans-serif;
+    font-stretch: ultra-condensed;
+    background-color: rgb(0, 0, 20);
+    margin: 0;
+}
+
+header {
+    background-image: url(design1_image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 400px;
+}
+
+h1 {
+    background-color: rgb(0, 120, 70);
+    padding-top: 33px;
+    padding-bottom: 12px;
+    padding-left: 250px;
+    font-size: 30px;
+    color: white;
+}
+
+nav {
+    float: right;
+    position: relative;
+    bottom: 516px;
+    background-color: rgb(0, 120, 70);
+    padding: 10px 70px 5px 459px;
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.inline {
+    display: inline;
+}
+
+li a {
+    margin-left: 80px;
+    margin-right: 40px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+h2 {
+    position: relative;
+    bottom: 23px;
+    text-align: center;
+    font-size: 27px;
+    color: white;
+    background-color: rgb(0, 120, 70);
+    padding: 5px;
+}
+
+.logo {
+    height: 120px;
+    width: 120px;
+    float: left;
+    position: relative;
+    bottom: 512px;
+    left: 70px;
+}
+
+.active {
+    color: white;
+    text-decoration: none;
+}
+
+.inactive {
+    color: rgb(150, 170, 150);
+    text-decoration: none;
+}
+
+section {
+    margin-left: 250px;
+    margin-right: 250px;
+    color: rgb(200, 200, 200);
+    clear: right;
+}
+
+h3 {
+    font-size: 18px;
+    margin-top: 50px;
+    color: rgb(200, 200, 200);
+}
+
+p {
+    margin-top: -10px;
+    margin-left: 15px;
+    margin-bottom: 40px;
+    margin-right: 15px;
+    text-align: justify;
+}
+
+.list_alfa {
+    list-style-type: lower-alpha;
+}
+
+.closer {
+    margin-bottom: -30px;
+}
+
+.close {
+    margin-bottom: -20px;
+}
+
+hr {
+    background-color: rgb(150, 180, 150);
+    border-color: rgb(150, 180, 150);
+    position: relative;
+    margin-left: 500px;
+    bottom: 467px;
+}
+
+th {
+    text-align: left;
+    text-decoration: underline;
+}
+
+.table1 td:first-child {
+    text-align: center;
+    padding-right: 107px;
+    padding-left: 23px;
+}
+
+.table1 td:nth-child(2) {
+    padding-right: 60px;
+}
+
+.table1 td:nth-child(3) {
+    padding-right: 15px;
+}
+
+.table2 td:first-child {
+    text-align: center;
+    padding-right: 103px;
+    padding-left: 20px;
+}
+
+.table2 td:nth-child(2) {
+    padding-right: 60px;
+}
+
+.table2 td:nth-child(3) {
+    padding-right: 15px;
+}
+
+.table1 {
+    border-collapse: collapse;
+}
+
+.table2 {
+    border-collapse: collapse;
+}
+
+.table3 {
+    border-collapse: collapse;
+    width: 70%;
+}
+
+#paragraf {
+    text-decoration: underline;
+    margin-left: -1px;
+    margin-bottom: 18px
+}
+
+
+.flex-container {
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.map {
+     width: 300px;
+     height: 200px;
+}
+
+form {
+     background-color: rgb(40, 40, 50);
+}
+label {
+      padding-left: 20px;   
+ } 
+input[type=text] {
+        width: 70%;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: #f1f1f1;
+}
+input[type=email] {
+        width: 70%;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: #f1f1f1;
+}
+
+input[type=date] {
+             width: 20%;
+            padding: 3px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: #f1f1f1;
+        }
+select {
+    width: 72%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+/* Column container */
+.register_container {
+        display: flex;
+        flex-wrap: wrap;
+} 
+        
+.name {
+     flex: 35%;
+     margin-top: 6px;
+}
+.field {
+     flex: 65%;
+     margin-top: 6px;
+        }
+.row {  
+    display: flex;
+    flex-direction: row;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.left {
+    flex: 50%;
+    padding: 5px;
+}
+
+h5 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    
+}
+
+input[type=submit] {
+    width: 20%;
+    margin-left: 330px;
+    background-color: rgb(0, 120, 70);
+    color: rgb(200, 200, 200);
+}
+
+#uniform {
+    padding-left: 6px;
+    margin-top:  5px;
+    margin-bottom: 5px;
+}
